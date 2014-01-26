@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="kernel" 
-	  fetch="git://git.kernel.org/pub/scm/" />
-  
-  <remote  name="googlecode"
-           fetch="https://code.google.com/" />  
-  
   <remote name="kernel"
          fetch="git://git.kernel.org/pub/scm/" />
   
