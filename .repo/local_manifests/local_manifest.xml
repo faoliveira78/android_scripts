@@ -7,16 +7,22 @@
   <remote  name="googlecode"
            fetch="https://code.google.com/" />  
   
-  <project path="." name="95A31/android_scripts" remote="private"/>
-
-  <project path="device/sony/kumquat" name="95A31/android_device_sony_kumquat" remote="private"/>
-
-  <project path="hardware/semc" name="95A31/android_hardware_semc" remote="private"/>
-
-  <project path="kernel/sony/u8500" name="95A31/android_kernel_sony_u8500" remote="private"/>
-
-  <project path="vendor/sony/kumquat" name="95A31/android_vendor_sony_kumquat" remote="private"/>
+  <remote name="kernel"
+         fetch="git://git.kernel.org/pub/scm/" />
   
+  <remote name="googlecode"
+           fetch="https://code.google.com/" />
+  
+  <project path="." name="faoliveira78/android_scripts" remote="private"/>
+
+  <project path="device/sony/kumquat" name="faoliveira78/android_device_sony_kumquat" remote="private"/>
+
+  <project path="hardware/semc" name="faoliveira78/android_hardware_semc" remote="private"/>
+
+  <project path="kernel/sony/u8500" name="faoliveira78/android_kernel_xperiago" remote="private"/>
+
+  <project path="vendor/sony/kumquat" name="faoliveira78/proprietary_vendor_sony" remote="private"/>
+
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid"/>
   
   <!-- 
